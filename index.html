@@ -2,13 +2,25 @@
 <html>
 <head>
 <title>Google</title>
+<link rel="stylesheet"  type="text/css" href="style.css"/>
 </head>
 <body>
-    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
-    <form id="search_box">
-        <label for="search"><img height="15" width="auto" src="media/magnifying-glass.svg"/></label>
-        <input type="text" id="search" size="10">
-    </form>
+    <div class="viewport">
+        <div class="center">
+            <img id="logo" src="media/google_logo.png"/>
+            <form id="main">
+                <div id="search_box">
+                    <label for="search"><img height="15" width="auto" src="media/magnifying-glass.svg"/></label>
+                    <input type="text" id="search" size="10" border-type="none">
+                </div>
+                <br>
+                <div id="submit_buttons">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm feeling lucky">
+                 </div>
+            </form>
+        </div>
+    </div>
     <footer><div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" 
         title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/"
         title="Flaticon">www.flaticon.com</a></div></footer>
